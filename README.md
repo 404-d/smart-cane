@@ -11,8 +11,8 @@
 
 - [原 Github 仓库地址](https://github.com/pslade2/AugmentedCane/blob/main/README.md)
 - [原斯坦福论文地址](https://www.science.org/doi/10.1126/scirobotics.abg6594)
-
-**_声明：该项目全部灵感来源均为团队成员，后查阅资料得知存在同型产品，无抄袭行为。_** [项目 Github 仓库地址]()
+- [项目 Github 仓库地址]()
+- 使用到的软件：123D、Advanced IP Scanner、imager、putty、Bambu Studio、git、VisualStudio Code
 
 ## 简介
 
@@ -78,6 +78,7 @@
 安装 Docker(拉取镜像失败)
 
 ---
+
 ### 24/12/8
 
 3D 打印外壳建模  
