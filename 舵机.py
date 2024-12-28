@@ -1,4 +1,4 @@
-import RPi.GPIO as GPIO # type: ignore
+import RPi.GPIO as gpio # type: ignore
 import time
 
 # 定义电机引脚
@@ -6,20 +6,20 @@ spin1 = 17
 spin2 = 27
 
 # 初始化GPIO模式
-GPIO.setmode(GPIO.BCM)
+gpio.setmode(gpio.BCM)
 # 设置引脚为输出模式
-GPIO.setup(spin1, GPIO.OUT)
-GPIO.setup(spin2, GPIO.OUT)
+gpio.setup(spin1, gpio.OUT)
+gpio.setup(spin2, gpio.OUT)
 
 # 控制电机正转
-GPIO.output(spin1, GPIO.HIGH)
-GPIO.output(spin2, GPIO.LOW)
+gpio.output(spin1, gpio.HIGH)
+gpio.output(spin2, gpio.LOW)
 time.sleep(2)
 
 # 控制电机反转
-GPIO.output(spin1, GPIO.LOW)
-GPIO.output(spin2, GPIO.HIGH)
+gpio.output(spin1, gpio.LOW)
+gpio.output(spin2, gpio.HIGH)
 time.sleep(2)
 
 # 清理GPIO资源
-GPIO.cleanup()
+gpio.cleanup()
