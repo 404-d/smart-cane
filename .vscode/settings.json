@@ -1,0 +1,37 @@
+{
+  "editor.fontFamily": "'JetBrains Mono NL', 'JetBrains Mono NL Regular', monospace",
+  "editor.fontSize": 15,
+  "editor.fontLigatures": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "cSpell.ignorePaths": [
+    // "package-lock.json",
+    // "node_modules",
+    // "vscode-extension",
+    // ".git/{info,lfs,logs,refs,objects}/**",
+    // ".git/{index,*refs,*HEAD}",
+    // ".vscode",
+    // ".vscode-insiders"
+  ],
+  "VSCodeCounter.outputDirectory": ".vscode/counter",
+  "python.testing.unittestArgs": ["-v", "-s", "./AI_Camera", "-p", "*test*.py"],
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestEnabled": true,
+  "files.associations": {
+    "ostream": "cpp",
+    "iostream": "cpp"
+  },
+  "cSpell.words": [
+    "Bambu",
+    "Bilibili",
+    "CMYK",
+    "cout",
+    "esbenp",
+    "ostream",
+    "PETG",
+    "pytest",
+    "raspbain",
+    "stackrel"
+  ]
+}
