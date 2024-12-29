@@ -9,9 +9,9 @@
 
 斯坦福大学同型产品：
 
-- [原 Github 仓库地址](https://github.com/pslade2/AugmentedCane/blob/main/README.md)
-- [原斯坦福论文地址](https://www.science.org/doi/10.1126/scirobotics.abg6594)
-- [项目 Github 仓库地址](https://github.com/404-d/smart-cane)
+- [Github 仓库地址](https://github.com/pslade2/AugmentedCane/blob/main/README.md)
+- [斯坦福论文地址](https://www.science.org/doi/10.1126/scirobotics.abg6594)
+- [该项目 Github 仓库地址](https://github.com/404-d/smart-cane)
 - 使用到的软件：123D、Advanced IP Scanner、imager、putty、Bambu Studio、git、VisualStudio Code
 
 ## 简介
