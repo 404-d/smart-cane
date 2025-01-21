@@ -1,17 +1,5 @@
-sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
-sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
-sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
-
-sudo apt-get update
-sudo apt-get upgrade
-//sudo apt-get install ros-noetic-message-generation 
-sudo apt-get install ros-noetic-desktop-full
-
-sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
-
-
-
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 871920D1991BC93C
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 871920D1991BC93C
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 871920D1991BC93C
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 871920D1991BC93C
+rasp@rasp:~$ sudo apt install ros-foxy-gazebo python3-argcomplete
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树... 完成
+正在读取状态信息... 完成
+E: 无法定位软件包 ros-foxy-gazebo
