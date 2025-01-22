@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/pkg_helloworld_py/pkg_helloworld_py.egg-info/PKG-INFO
+../../build/pkg_helloworld_py/pkg_helloworld_py.egg-info/SOURCES.txt
+../../build/pkg_helloworld_py/pkg_helloworld_py.egg-info/dependency_links.txt
+../../build/pkg_helloworld_py/pkg_helloworld_py.egg-info/entry_points.txt
+../../build/pkg_helloworld_py/pkg_helloworld_py.egg-info/requires.txt
+../../build/pkg_helloworld_py/pkg_helloworld_py.egg-info/top_level.txt
+../../build/pkg_helloworld_py/pkg_helloworld_py.egg-info/zip-safe
+pkg_helloworld_py/__init__.py
+pkg_helloworld_py/helloworld.py
+resource/pkg_helloworld_py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
