@@ -8,8 +8,7 @@ setup.py
 ../../build/pkg_helloworld_py/pkg_helloworld_py.egg-info/requires.txt
 ../../build/pkg_helloworld_py/pkg_helloworld_py.egg-info/top_level.txt
 ../../build/pkg_helloworld_py/pkg_helloworld_py.egg-info/zip-safe
-pkg_helloworld_py/__init__.py
-pkg_helloworld_py/helloworld.py
+launch/single_node_launch.py
 resource/pkg_helloworld_py
 test/test_copyright.py
 test/test_flake8.py
