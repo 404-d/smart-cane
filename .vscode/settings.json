@@ -34,5 +34,8 @@
     "raspbain",
     "stackrel"
   ],
-  "C_Cpp.errorSquiggles": "disabled"
+  "C_Cpp.errorSquiggles": "disabled",
+  "search.useParentIgnoreFiles": false,
+  "explorer.fileNesting.enabled": false,
+  "scm.compactFolders": false
 }
