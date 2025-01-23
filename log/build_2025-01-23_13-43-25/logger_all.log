@@ -1,0 +1,141 @@
+[1.501s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'pkg_helloworld_py']
+[1.502s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['pkg_helloworld_py'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa499ec80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa4b88130>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa4b88130>>)
+[2.943s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.944s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.944s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.945s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rasp/桌面/smart-cane'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.051s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extensions ['ignore', 'ignore_ament_install']
+[3.052s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extension 'ignore'
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extension 'ignore_ament_install'
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extensions ['colcon_pkg']
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extension 'colcon_pkg'
+[3.053s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extensions ['colcon_meta']
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extension 'colcon_meta'
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extensions ['ros']
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extension 'ros'
+[3.054s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extensions ['cmake', 'python']
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extension 'cmake'
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extension 'python'
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extensions ['python_setup_py']
+[3.055s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extension 'python_setup_py'
+[3.056s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.056s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.056s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.057s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.057s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.058s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.058s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.063s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_helloworld_py) by extensions ['ignore', 'ignore_ament_install']
+[3.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_helloworld_py) by extension 'ignore'
+[3.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_helloworld_py) by extension 'ignore_ament_install'
+[3.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_helloworld_py) by extensions ['colcon_pkg']
+[3.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_helloworld_py) by extension 'colcon_pkg'
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_helloworld_py) by extensions ['colcon_meta']
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_helloworld_py) by extension 'colcon_meta'
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_helloworld_py) by extensions ['ros']
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_helloworld_py) by extension 'ros'
+[3.079s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg_helloworld_py' with type 'ros.ament_python' and name 'pkg_helloworld_py'
+[3.079s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.079s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.079s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.307s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rasp/桌面/smart-cane/install
+[3.323s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[3.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.713s] Level 5:colcon.colcon_core.verb:set package 'pkg_helloworld_py' build argument 'cmake_args' from command line to 'None'
+[3.713s] Level 5:colcon.colcon_core.verb:set package 'pkg_helloworld_py' build argument 'cmake_target' from command line to 'None'
+[3.713s] Level 5:colcon.colcon_core.verb:set package 'pkg_helloworld_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.713s] Level 5:colcon.colcon_core.verb:set package 'pkg_helloworld_py' build argument 'cmake_clean_cache' from command line to 'False'
+[3.713s] Level 5:colcon.colcon_core.verb:set package 'pkg_helloworld_py' build argument 'cmake_clean_first' from command line to 'False'
+[3.713s] Level 5:colcon.colcon_core.verb:set package 'pkg_helloworld_py' build argument 'cmake_force_configure' from command line to 'False'
+[3.713s] Level 5:colcon.colcon_core.verb:set package 'pkg_helloworld_py' build argument 'ament_cmake_args' from command line to 'None'
+[3.714s] Level 5:colcon.colcon_core.verb:set package 'pkg_helloworld_py' build argument 'catkin_cmake_args' from command line to 'None'
+[3.714s] Level 5:colcon.colcon_core.verb:set package 'pkg_helloworld_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.714s] DEBUG:colcon.colcon_core.verb:Building package 'pkg_helloworld_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rasp/桌面/smart-cane/build/pkg_helloworld_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py', 'merge_install': False, 'path': '/home/rasp/桌面/smart-cane/src/pkg_helloworld_py', 'symlink_install': False, 'test_result_base': None}
+[3.715s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.718s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.719s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rasp/桌面/smart-cane/src/pkg_helloworld_py' with build type 'ament_python'
+[3.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_helloworld_py', 'ament_prefix_path')
+[3.744s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/pkg_helloworld_py/hook/ament_prefix_path.ps1'
+[3.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/pkg_helloworld_py/hook/ament_prefix_path.dsv'
+[3.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/pkg_helloworld_py/hook/ament_prefix_path.sh'
+[3.761s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.761s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.013s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rasp/桌面/smart-cane/src/pkg_helloworld_py'
+[5.015s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.015s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp/桌面/smart-cane/src/pkg_helloworld_py': PYTHONPATH=/home/rasp/桌面/smart-cane/build/pkg_helloworld_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_helloworld_py build --build-base /home/rasp/桌面/smart-cane/build/pkg_helloworld_py/build install --record /home/rasp/桌面/smart-cane/build/pkg_helloworld_py/install.log --single-version-externally-managed install_data
+[8.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp/桌面/smart-cane/src/pkg_helloworld_py' returned '0': PYTHONPATH=/home/rasp/桌面/smart-cane/build/pkg_helloworld_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_helloworld_py build --build-base /home/rasp/桌面/smart-cane/build/pkg_helloworld_py/build install --record /home/rasp/桌面/smart-cane/build/pkg_helloworld_py/install.log --single-version-externally-managed install_data
+[8.357s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py' for CMake module files
+[8.363s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py' for CMake config files
+[8.368s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/lib'
+[8.369s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/bin'
+[8.369s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/lib/pkgconfig/pkg_helloworld_py.pc'
+[8.371s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/lib/python3.10/site-packages'
+[8.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_helloworld_py', 'pythonpath')
+[8.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/pkg_helloworld_py/hook/pythonpath.ps1'
+[8.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/pkg_helloworld_py/hook/pythonpath.dsv'
+[8.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/pkg_helloworld_py/hook/pythonpath.sh'
+[8.379s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/bin'
+[8.380s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_helloworld_py)
+[8.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/pkg_helloworld_py/package.ps1'
+[8.385s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/pkg_helloworld_py/package.dsv'
+[8.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/pkg_helloworld_py/package.sh'
+[8.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/pkg_helloworld_py/package.bash'
+[8.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/pkg_helloworld_py/package.zsh'
+[8.407s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/colcon-core/packages/pkg_helloworld_py)
+[8.409s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.410s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.411s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.411s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.460s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.460s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.461s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.751s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.754s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rasp/桌面/smart-cane/install/local_setup.ps1'
+[8.762s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rasp/桌面/smart-cane/install/_local_setup_util_ps1.py'
+[8.772s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rasp/桌面/smart-cane/install/setup.ps1'
+[8.779s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rasp/桌面/smart-cane/install/local_setup.sh'
+[8.785s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rasp/桌面/smart-cane/install/_local_setup_util_sh.py'
+[8.790s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rasp/桌面/smart-cane/install/setup.sh'
+[8.805s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rasp/桌面/smart-cane/install/local_setup.bash'
+[8.810s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rasp/桌面/smart-cane/install/setup.bash'
+[8.817s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rasp/桌面/smart-cane/install/local_setup.zsh'
+[8.825s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rasp/桌面/smart-cane/install/setup.zsh'
