@@ -1,0 +1,3 @@
+Invoking command in '/home/rasp/桌面/smart-cane/build/ydlidar_sdk': /usr/bin/cmake /home/rasp/桌面/smart-cane/YDLidar-SDK-master -DCMAKE_INSTALL_PREFIX=/home/rasp/桌面/smart-cane/install/ydlidar_sdk
+Invoked command in '/home/rasp/桌面/smart-cane/build/ydlidar_sdk' returned '0': /usr/bin/cmake /home/rasp/桌面/smart-cane/YDLidar-SDK-master -DCMAKE_INSTALL_PREFIX=/home/rasp/桌面/smart-cane/install/ydlidar_sdk
+Invoking command in '/home/rasp/桌面/smart-cane/build/ydlidar_sdk': /usr/bin/cmake --build /home/rasp/桌面/smart-cane/build/ydlidar_sdk -- -j4 -l4

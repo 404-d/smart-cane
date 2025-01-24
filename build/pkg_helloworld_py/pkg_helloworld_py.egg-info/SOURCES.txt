@@ -11,7 +11,11 @@ setup.py
 launch/single_node_launch.py
 pkg_helloworld_py/__init__.py
 pkg_helloworld_py/helloworld.py
+pkg_helloworld_py.egg-info/PKG-INFO
+pkg_helloworld_py.egg-info/SOURCES.txt
+pkg_helloworld_py.egg-info/dependency_links.txt
+pkg_helloworld_py.egg-info/entry_points.txt
+pkg_helloworld_py.egg-info/requires.txt
+pkg_helloworld_py.egg-info/top_level.txt
+pkg_helloworld_py.egg-info/zip-safe
 resource/pkg_helloworld_py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

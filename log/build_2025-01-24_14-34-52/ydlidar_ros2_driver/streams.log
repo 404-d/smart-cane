@@ -1,0 +1,805 @@
+[4.770s] Invoking command in '/home/rasp/桌面/smart-cane/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/桌面/smart-cane/install/pkg_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/rasp/桌面/smart-cane/build/ydlidar_ros2_driver -- -j4 -l4
+[5.856s] [35m[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_node[0m
+[6.389s] [ 25%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[45.636s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[45.639s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:44:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [5])[m[K’
+[45.642s]    44 |   [01;31m[Knode->declare_parameter("port")[m[K;
+[45.653s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[45.654s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[45.655s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[45.656s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[45.663s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[45.674s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[45.677s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[45.678s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[45.684s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[45.685s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:44:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[45.699s]    44 |   [01;36m[Knode->declare_parameter("port")[m[K;
+[45.700s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[45.710s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[45.713s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[45.724s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[45.726s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[45.732s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[45.738s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[45.745s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[45.755s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[45.759s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:44:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[45.762s]    44 |   [01;36m[Knode->declare_parameter("port")[m[K;
+[45.763s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[45.763s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[45.764s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[45.764s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[45.765s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[45.767s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[45.768s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[45.783s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[45.789s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[45.793s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[45.797s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[45.798s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[45.805s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[45.814s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:51:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [13])[m[K’
+[45.820s]    51 |   [01;31m[Knode->declare_parameter("ignore_array")[m[K;
+[45.828s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[45.838s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[45.846s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[45.851s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[45.857s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[45.873s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[45.886s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[45.895s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[45.905s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[45.913s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:51:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[45.919s]    51 |   [01;36m[Knode->declare_parameter("ignore_array")[m[K;
+[45.923s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[45.930s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[45.939s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[45.952s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[45.983s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[45.990s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[45.998s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[46.009s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[46.020s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[46.028s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:51:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[46.052s]    51 |   [01;36m[Knode->declare_parameter("ignore_array")[m[K;
+[46.090s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[46.101s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[46.113s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[46.123s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[46.137s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[46.150s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[46.157s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[46.164s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[46.186s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[46.211s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[46.224s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[46.246s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[46.253s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[46.256s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:56:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [9])[m[K’
+[46.260s]    56 |   [01;31m[Knode->declare_parameter("frame_id")[m[K;
+[46.263s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[46.272s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[46.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[46.280s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[46.288s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[46.288s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[46.300s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[46.303s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[46.306s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[46.330s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:56:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[46.340s]    56 |   [01;36m[Knode->declare_parameter("frame_id")[m[K;
+[46.341s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[46.342s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[46.366s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[46.367s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[46.368s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[46.370s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[46.371s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[46.375s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[46.386s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[46.387s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:56:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[46.395s]    56 |   [01;36m[Knode->declare_parameter("frame_id")[m[K;
+[46.397s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[46.403s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[46.408s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[46.409s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[46.415s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[46.416s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[46.417s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[46.418s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[46.419s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[46.420s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[46.421s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[46.422s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[46.430s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[46.431s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:62:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [9])[m[K’
+[46.431s]    62 |   [01;31m[Knode->declare_parameter("baudrate")[m[K;
+[46.435s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[46.451s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[46.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[46.481s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[46.487s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[46.495s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[46.504s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[46.510s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[46.517s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[46.523s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:62:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[46.529s]    62 |   [01;36m[Knode->declare_parameter("baudrate")[m[K;
+[46.534s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[46.538s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[46.548s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[46.553s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[46.560s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[46.567s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[46.574s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[46.582s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[46.591s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[46.616s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:62:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[46.617s]    62 |   [01;36m[Knode->declare_parameter("baudrate")[m[K;
+[46.618s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[46.618s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[46.619s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[46.620s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[46.620s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[46.625s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[46.632s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[46.634s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[46.635s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[46.636s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[46.639s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[46.651s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[46.653s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[46.657s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:67:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [11])[m[K’
+[46.658s]    67 |   [01;31m[Knode->declare_parameter("lidar_type")[m[K;
+[46.660s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[46.661s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[46.661s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[46.662s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[46.671s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[46.682s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[46.684s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[46.684s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[46.685s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[46.696s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:67:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[46.699s]    67 |   [01;36m[Knode->declare_parameter("lidar_type")[m[K;
+[46.700s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[46.701s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[46.711s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[46.712s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[46.720s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[46.721s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[46.722s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[46.725s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[46.726s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[46.733s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:67:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[46.739s]    67 |   [01;36m[Knode->declare_parameter("lidar_type")[m[K;
+[46.740s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[46.741s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[46.744s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[46.749s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[46.751s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[46.753s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[46.753s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[46.754s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[46.764s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[46.765s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[46.766s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[46.778s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[46.779s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[46.780s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:72:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [12])[m[K’
+[46.787s]    72 |   [01;31m[Knode->declare_parameter("device_type")[m[K;
+[46.788s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[46.789s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[46.791s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[46.792s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[46.793s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[46.795s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[46.795s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[46.797s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[46.813s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[46.820s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:72:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[46.823s]    72 |   [01;36m[Knode->declare_parameter("device_type")[m[K;
+[46.827s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[46.831s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[46.839s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[46.844s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[46.849s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[46.854s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[46.857s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[46.861s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[46.864s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[46.870s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:72:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[46.873s]    72 |   [01;36m[Knode->declare_parameter("device_type")[m[K;
+[46.880s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[46.885s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[46.889s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[46.894s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[46.898s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[46.905s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[46.910s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[46.914s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[46.919s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[46.924s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[46.928s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[46.932s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[46.936s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[46.940s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:77:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [12])[m[K’
+[46.945s]    77 |   [01;31m[Knode->declare_parameter("sample_rate")[m[K;
+[46.954s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[46.962s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[46.965s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[46.973s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[46.980s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[46.985s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[46.989s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[46.993s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[46.998s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[47.003s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:77:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.017s]    77 |   [01;36m[Knode->declare_parameter("sample_rate")[m[K;
+[47.021s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[47.025s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.028s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.037s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.043s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[47.048s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[47.052s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.057s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[47.061s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:77:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[47.067s]    77 |   [01;36m[Knode->declare_parameter("sample_rate")[m[K;
+[47.071s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[47.072s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.075s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.077s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.082s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.083s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[47.084s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[47.085s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.086s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.087s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[47.088s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[47.103s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.104s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.108s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:82:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [21])[m[K’
+[47.109s]    82 |   [01;31m[Knode->declare_parameter("abnormal_check_count")[m[K;
+[47.110s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[47.116s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.117s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.117s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.118s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.125s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[47.126s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[47.127s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.128s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[47.130s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:82:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.133s]    82 |   [01;36m[Knode->declare_parameter("abnormal_check_count")[m[K;
+[47.138s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[47.143s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.151s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.154s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.157s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.158s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[47.159s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[47.160s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.162s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[47.169s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:82:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[47.170s]    82 |   [01;36m[Knode->declare_parameter("abnormal_check_count")[m[K;
+[47.171s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[47.172s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.172s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.173s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.173s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.174s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[47.176s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[47.204s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.215s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.222s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[47.229s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[47.230s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.230s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.232s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:90:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [17])[m[K’
+[47.233s]    90 |   [01;31m[Knode->declare_parameter("fixed_resolution")[m[K;
+[47.235s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[47.235s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.236s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.237s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.237s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.254s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[47.255s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[47.264s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.267s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[47.270s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:90:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.275s]    90 |   [01;36m[Knode->declare_parameter("fixed_resolution")[m[K;
+[47.277s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[47.284s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.301s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.305s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[47.316s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[47.322s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.327s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[47.330s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:90:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[47.333s]    90 |   [01;36m[Knode->declare_parameter("fixed_resolution")[m[K;
+[47.339s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[47.345s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.352s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.357s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.362s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.366s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[47.370s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[47.376s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.381s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.386s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[47.390s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[47.395s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.398s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.401s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:95:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [10])[m[K’
+[47.406s]    95 |   [01;31m[Knode->declare_parameter("reversion")[m[K;
+[47.421s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[47.435s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.447s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.450s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.455s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[47.460s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[47.466s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.473s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[47.479s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:95:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.486s]    95 |   [01;36m[Knode->declare_parameter("reversion")[m[K;
+[47.495s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[47.503s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.509s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.543s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.567s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.573s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[47.584s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[47.599s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.617s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[47.630s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:95:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[47.640s]    95 |   [01;36m[Knode->declare_parameter("reversion")[m[K;
+[47.654s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[47.676s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.677s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.677s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.678s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.678s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[47.679s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[47.680s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.680s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.681s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[47.682s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[47.682s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.683s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.684s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:100:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [9])[m[K’
+[47.685s]   100 |   [01;31m[Knode->declare_parameter("inverted")[m[K;
+[47.685s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[47.686s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.687s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.688s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.691s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.692s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[47.693s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[47.694s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.695s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[47.697s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:100:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.698s]   100 |   [01;36m[Knode->declare_parameter("inverted")[m[K;
+[47.700s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[47.701s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.702s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.703s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.704s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.705s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[47.707s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[47.708s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.709s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[47.710s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:100:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[47.712s]   100 |   [01;36m[Knode->declare_parameter("inverted")[m[K;
+[47.713s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[47.715s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.716s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.717s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.719s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.720s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[47.721s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[47.722s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.724s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.726s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[47.727s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[47.729s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.729s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.730s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:104:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [15])[m[K’
+[47.739s]   104 |   [01;31m[Knode->declare_parameter("auto_reconnect")[m[K;
+[47.740s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[47.741s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.743s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.745s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.747s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.747s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[47.748s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[47.749s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.750s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[47.751s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:104:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.752s]   104 |   [01;36m[Knode->declare_parameter("auto_reconnect")[m[K;
+[47.753s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[47.753s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.754s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.755s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.756s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.757s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[47.758s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[47.760s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.761s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[47.763s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:104:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[47.765s]   104 |   [01;36m[Knode->declare_parameter("auto_reconnect")[m[K;
+[47.767s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[47.768s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.769s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.770s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.771s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.772s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[47.773s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[47.775s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.776s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.777s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[47.778s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[47.778s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.779s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.780s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:109:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [16])[m[K’
+[47.781s]   109 |   [01;31m[Knode->declare_parameter("isSingleChannel")[m[K;
+[47.782s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[47.784s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.785s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.787s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.788s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.789s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[47.790s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[47.791s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.794s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[47.795s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:109:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.796s]   109 |   [01;36m[Knode->declare_parameter("isSingleChannel")[m[K;
+[47.797s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[47.798s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.799s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.801s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.802s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.804s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[47.806s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[47.807s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.809s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[47.811s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:109:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[47.812s]   109 |   [01;36m[Knode->declare_parameter("isSingleChannel")[m[K;
+[47.813s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[47.813s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.814s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.816s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.817s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.818s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[47.819s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[47.820s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.821s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.822s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[47.823s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[47.823s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.825s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.827s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:114:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [10])[m[K’
+[47.828s]   114 |   [01;31m[Knode->declare_parameter("intensity")[m[K;
+[47.830s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[47.831s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.832s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.833s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.835s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.835s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[47.836s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[47.837s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.837s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[47.838s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:114:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.840s]   114 |   [01;36m[Knode->declare_parameter("intensity")[m[K;
+[47.842s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[47.844s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.845s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.846s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.848s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.849s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[47.850s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[47.851s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.852s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[47.853s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:114:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[47.854s]   114 |   [01;36m[Knode->declare_parameter("intensity")[m[K;
+[47.855s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[47.857s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.859s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.863s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.865s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.867s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[47.868s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[47.868s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.870s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.871s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[47.874s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[47.876s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.877s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.878s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:119:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [18])[m[K’
+[47.880s]   119 |   [01;31m[Knode->declare_parameter("support_motor_dtr")[m[K;
+[47.882s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[47.883s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.885s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.886s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.887s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.888s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[47.891s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[47.892s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.893s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[47.894s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:119:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.896s]   119 |   [01;36m[Knode->declare_parameter("support_motor_dtr")[m[K;
+[47.897s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[47.898s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.899s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.900s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.901s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.902s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[47.902s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[47.903s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.907s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[47.909s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:119:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[47.910s]   119 |   [01;36m[Knode->declare_parameter("support_motor_dtr")[m[K;
+[47.911s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[47.912s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.914s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.915s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.916s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.916s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[47.917s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[47.918s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.918s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.919s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[47.920s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[47.921s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.922s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.923s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:126:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [10])[m[K’
+[47.924s]   126 |   [01;31m[Knode->declare_parameter("angle_max")[m[K;
+[47.925s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[47.926s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.927s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.928s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.929s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.929s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[47.930s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[47.931s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.932s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[47.933s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:126:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.934s]   126 |   [01;36m[Knode->declare_parameter("angle_max")[m[K;
+[47.935s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[47.936s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.938s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.939s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.940s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[47.940s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[47.941s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.942s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[47.943s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:126:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[47.944s]   126 |   [01;36m[Knode->declare_parameter("angle_max")[m[K;
+[47.944s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[47.945s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.947s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.948s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.949s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.950s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[47.952s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[47.953s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.953s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.954s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[47.954s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[47.955s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.956s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.957s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:130:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [10])[m[K’
+[47.957s]   130 |   [01;31m[Knode->declare_parameter("angle_min")[m[K;
+[47.958s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[47.959s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.959s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.960s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.961s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.962s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[47.963s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[47.963s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.964s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[47.966s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:130:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.967s]   130 |   [01;36m[Knode->declare_parameter("angle_min")[m[K;
+[47.968s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[47.969s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.970s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.971s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.972s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.973s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[47.974s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[47.975s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.977s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[47.978s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:130:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[47.979s]   130 |   [01;36m[Knode->declare_parameter("angle_min")[m[K;
+[47.979s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[47.980s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.981s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[47.982s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[47.983s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[47.985s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[47.987s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[47.989s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.990s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.992s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[47.993s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[47.994s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[47.995s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[47.995s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:135:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [10])[m[K’
+[47.996s]   135 |   [01;31m[Knode->declare_parameter("range_max")[m[K;
+[47.997s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[47.997s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[47.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[48.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[48.001s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[48.002s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[48.004s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[48.005s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[48.007s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[48.009s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:135:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[48.010s]   135 |   [01;36m[Knode->declare_parameter("range_max")[m[K;
+[48.011s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[48.012s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[48.013s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[48.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[48.015s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[48.016s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[48.017s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[48.019s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[48.020s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[48.022s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:135:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[48.023s]   135 |   [01;36m[Knode->declare_parameter("range_max")[m[K;
+[48.024s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[48.026s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[48.027s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[48.028s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[48.029s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[48.029s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[48.030s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[48.031s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[48.032s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[48.033s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[48.034s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[48.036s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[48.037s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[48.038s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:139:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [10])[m[K’
+[48.039s]   139 |   [01;31m[Knode->declare_parameter("range_min")[m[K;
+[48.041s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[48.042s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[48.044s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[48.045s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[48.047s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[48.049s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[48.050s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[48.052s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[48.054s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[48.055s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:139:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[48.056s]   139 |   [01;36m[Knode->declare_parameter("range_min")[m[K;
+[48.058s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[48.059s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[48.060s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[48.061s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[48.062s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[48.063s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[48.064s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[48.065s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[48.066s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[48.067s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:139:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[48.069s]   139 |   [01;36m[Knode->declare_parameter("range_min")[m[K;
+[48.070s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[48.070s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[48.071s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[48.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[48.074s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[48.075s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[48.077s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[48.078s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[48.079s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[48.080s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[48.081s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[48.082s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[48.083s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[48.085s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:144:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [10])[m[K’
+[48.086s]   144 |   [01;31m[Knode->declare_parameter("frequency")[m[K;
+[48.087s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[48.089s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[48.090s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[48.091s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[48.092s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[48.093s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[48.094s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[48.095s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[48.095s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[48.096s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:144:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[48.097s]   144 |   [01;36m[Knode->declare_parameter("frequency")[m[K;
+[48.097s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[48.098s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[48.099s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[48.099s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[48.100s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[48.100s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[48.101s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[48.102s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[48.104s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[48.105s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:144:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[48.107s]   144 |   [01;36m[Knode->declare_parameter("frequency")[m[K;
+[48.108s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[48.110s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[48.111s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[48.113s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[48.114s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[48.115s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[48.116s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[48.117s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[48.119s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[48.121s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[48.123s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[48.124s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[48.125s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[48.127s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:149:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [21])[m[K’
+[48.129s]   149 |   [01;31m[Knode->declare_parameter("invalid_range_is_inf")[m[K;
+[48.130s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[48.131s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[48.132s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[48.134s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[48.135s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[48.137s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[48.138s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[48.139s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[48.141s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[48.143s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:149:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[48.144s]   149 |   [01;36m[Knode->declare_parameter("invalid_range_is_inf")[m[K;
+[48.145s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[48.147s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[48.150s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[48.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[48.154s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[48.156s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[48.157s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[48.158s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[48.159s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[48.160s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:149:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[48.162s]   149 |   [01;36m[Knode->declare_parameter("invalid_range_is_inf")[m[K;
+[48.163s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[48.164s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[48.165s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[48.166s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[48.168s]                  from [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23[m[K:
+[48.169s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[48.171s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[48.172s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[48.174s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[48.177s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[48.178s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[48.179s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[48.181s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[48.182s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[48.183s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:163:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[48.184s]   163 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[48.185s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[48.185s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:164:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[48.187s]   164 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[48.188s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[48.190s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:165:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[48.192s]   165 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[48.193s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[48.194s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[48.195s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:173:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[48.197s]   173 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[48.199s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[48.200s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:174:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[48.201s]   174 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[48.201s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[48.202s] [01m[K/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:175:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[48.204s]   175 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[48.204s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[60.987s] gmake[2]: *** [CMakeFiles/ydlidar_ros2_driver_node.dir/build.make:76：CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o] 错误 1
+[60.992s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/ydlidar_ros2_driver_node.dir/all] 错误 2
+[60.996s] gmake: *** [Makefile:146：all] 错误 2
+[61.013s] Invoked command in '/home/rasp/桌面/smart-cane/build/ydlidar_ros2_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rasp/桌面/smart-cane/install/pkg_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/rasp/桌面/smart-cane/build/ydlidar_ros2_driver -- -j4 -l4

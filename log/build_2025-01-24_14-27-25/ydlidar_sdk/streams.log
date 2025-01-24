@@ -1,0 +1,139 @@
+[1.336s] Invoking command in '/home/rasp/桌面/smart-cane/build/ydlidar_sdk': /usr/bin/cmake --build /home/rasp/桌面/smart-cane/build/ydlidar_sdk -- -j4 -l4
+[1.724s] [35m[1mConsolidate compiler generated dependencies of target ydlidar_sdk[0m
+[1.964s] [ 60%] Built target ydlidar_sdk
+[2.069s] [35m[1mConsolidate compiler generated dependencies of target etlidar_test[0m
+[2.115s] [35m[1mConsolidate compiler generated dependencies of target ydlidar_test[0m
+[2.139s] [35m[1mConsolidate compiler generated dependencies of target lidar_c_api_test[0m
+[2.151s] [35m[1mConsolidate compiler generated dependencies of target tof_test[0m
+[2.269s] [ 68%] Built target etlidar_test
+[2.283s] [ 76%] Built target lidar_c_api_test
+[2.330s] [ 84%] Built target tof_test
+[2.350s] [ 92%] Built target ydlidar_test
+[2.377s] [35m[1mConsolidate compiler generated dependencies of target lidar_test[0m
+[2.449s] [100%] Built target lidar_test
+[2.501s] Invoked command in '/home/rasp/桌面/smart-cane/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/rasp/桌面/smart-cane/build/ydlidar_sdk -- -j4 -l4
+[2.579s] Invoking command in '/home/rasp/桌面/smart-cane/build/ydlidar_sdk': /usr/bin/cmake --install /home/rasp/桌面/smart-cane/build/ydlidar_sdk
+[2.621s] -- Install configuration: ""
+[2.628s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/base/datatype.h
+[2.634s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/base/locker.h
+[2.640s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/base/thread.h
+[2.651s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/base/timer.h
+[2.658s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/base/typedef.h
+[2.664s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/base/utils.h
+[2.668s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/base/v8stdint.h
+[2.672s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/base/ydlidar.h
+[2.677s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/common/ChannelDevice.h
+[2.681s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/common/DriverInterface.h
+[2.710s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/common/ydlidar_datatype.h
+[2.717s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/common/ydlidar_def.h
+[2.721s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/common/ydlidar_help.h
+[2.726s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h
+[2.731s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/math/angles.h
+[2.736s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/network/ActiveSocket.h
+[2.743s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/network/PassiveSocket.h
+[2.746s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/network/SimpleSocket.h
+[2.750s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/network/StatTimer.h
+[2.753s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/serial/common.h
+[2.755s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/serial/serial.h
+[2.759s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/serial/impl/unix/lock.h
+[2.762s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/serial/impl/unix/unix.h
+[2.766s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/core/serial/impl/unix/unix_serial.h
+[2.770s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/src/CYdLidar.h
+[2.774s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/src/ETLidarDriver.h
+[2.779s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/src/ydlidar_driver.h
+[2.780s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/src/ydlidar_sdk.h
+[2.782s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/src/filters/FilterInterface.h
+[2.783s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/src/filters/NoiseFilter.h
+[2.784s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/include/ydlidar_config.h
+[2.786s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/lib/libydlidar_sdk.a
+[2.834s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/lib/pkgconfig/YDLIDAR_SDK.pc
+[2.840s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfig.cmake
+[2.846s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkTargets.cmake
+[2.850s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfigVersion.cmake
+[2.855s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/FindYDLIDAR_SDK.cmake
+[2.859s] -- Up-to-date: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK
+[2.859s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/cmake_uninstall.cmake.in
+[2.862s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/FindPackage.cmake.in
+[2.863s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfigVersion.cmake.in
+[2.864s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/script_show_final_summary.cmake
+[2.865s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfig.cmake.in
+[2.866s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/common
+[2.867s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_parse.cmake
+[2.868s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_base.cmake
+[2.869s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/install_package.cmake
+[2.870s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/PkgConfig.pc.in
+[2.878s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/LICENSE.txt
+[2.882s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/README.md
+[2.886s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc
+[2.889s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart
+[2.892s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/ydlidar_sdk_software_installation_guide.md
+[2.897s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/README.md
+[2.903s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Dataset.md
+[2.908s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/README.md
+[2.913s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLIDAR_SDK_API_for_Developers.md
+[2.920s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images
+[2.921s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/FlowChart.png
+[2.925s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_init.png
+[2.928s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_architecture.png
+[2.936s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sequence.png
+[2.941s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame.png
+[2.949s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/angle_q2.png
+[2.953s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.png
+[2.957s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/communication_mechanism.png
+[2.964s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/EAI.png
+[2.982s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame_intensity.png
+[2.988s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/system_workflow.png
+[2.995s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_scanning.png
+[3.001s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.jpg
+[3.007s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Diagram.md
+[3.017s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.pdf
+[3.037s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Tutorials.md
+[3.043s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.html
+[3.052s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar_SDK_Communication_Protocol.pdf
+[3.076s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.md
+[3.081s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials
+[3.084s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/examine_the_simple_lidar_tutorial.md
+[3.086s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c++.md
+[3.088s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c.md
+[3.091s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_python.md
+[3.096s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_network_adapter_tutorial_c++.md
+[3.098s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/SDK.pdf
+[3.159s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs
+[3.161s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs_cn.md
+[3.165s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs_cn.md
+[3.168s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs.md
+[3.171s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/README.md
+[3.173s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs.md
+[3.177s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs.md
+[3.182s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs_cn.md
+[3.186s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto
+[3.190s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_debug_using_vscode.md
+[3.195s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_pull.md
+[3.200s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_udev_rules.md
+[3.204s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_install.md
+[3.211s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/README.md
+[3.216s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images
+[3.224s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode
+[3.225s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/tasks.png
+[3.249s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/run_tasks.jpg
+[3.280s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_init.png
+[3.284s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_build.png
+[3.292s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ydlidar_lidar_monitor.png
+[3.305s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sequence.png
+[3.310s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_project.png
+[3.323s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_exception.png
+[3.333s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/cpack.png
+[3.338s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_running.png
+[3.342s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_library.png
+[3.346s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB1.png
+[3.355s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB0.png
+[3.358s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_scanning.png
+[3.418s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_solve_slow_pull_from_cn.md
+[3.420s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_gerenrate_vs_project_by_cmake.md
+[3.422s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_csharp_project.md
+[3.424s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/startup/initenv.sh
+[3.450s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/bin/etlidar_test
+[3.462s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/bin/tof_test
+[3.477s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/bin/ydlidar_test
+[3.487s] -- Installing: /home/rasp/桌面/smart-cane/install/ydlidar_sdk/bin/lidar_c_api_test
+[3.518s] Invoked command in '/home/rasp/桌面/smart-cane/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/rasp/桌面/smart-cane/build/ydlidar_sdk

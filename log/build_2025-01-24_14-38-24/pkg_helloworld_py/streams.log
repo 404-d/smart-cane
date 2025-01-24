@@ -1,0 +1,17 @@
+[5.211s] Invoking command in '/home/rasp/桌面/smart-cane/build/pkg_helloworld_py': PYTHONPATH=/home/rasp/桌面/smart-cane/build/pkg_helloworld_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rasp/桌面/smart-cane/build/pkg_helloworld_py/build --no-deps symlink_data
+[8.465s] running develop
+[10.822s] running egg_info
+[10.824s] writing pkg_helloworld_py.egg-info/PKG-INFO
+[10.828s] writing dependency_links to pkg_helloworld_py.egg-info/dependency_links.txt
+[10.831s] writing entry points to pkg_helloworld_py.egg-info/entry_points.txt
+[10.834s] writing requirements to pkg_helloworld_py.egg-info/requires.txt
+[10.836s] writing top-level names to pkg_helloworld_py.egg-info/top_level.txt
+[10.850s] reading manifest file 'pkg_helloworld_py.egg-info/SOURCES.txt'
+[10.861s] writing manifest file 'pkg_helloworld_py.egg-info/SOURCES.txt'
+[10.882s] running build_ext
+[10.885s] Creating /home/rasp/桌面/smart-cane/install/pkg_helloworld_py/lib/python3.10/site-packages/pkg-helloworld-py.egg-link (link to .)
+[10.897s] Installing helloworld script to /home/rasp/桌面/smart-cane/install/pkg_helloworld_py/lib/pkg_helloworld_py
+[10.902s] 
+[10.905s] Installed /home/rasp/桌面/smart-cane/build/pkg_helloworld_py
+[10.906s] running symlink_data
+[11.290s] Invoked command in '/home/rasp/桌面/smart-cane/build/pkg_helloworld_py' returned '0': PYTHONPATH=/home/rasp/桌面/smart-cane/build/pkg_helloworld_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rasp/桌面/smart-cane/build/pkg_helloworld_py/build --no-deps symlink_data

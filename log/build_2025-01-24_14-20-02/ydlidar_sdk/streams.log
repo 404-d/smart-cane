@@ -1,0 +1,227 @@
+[2.566s] Invoking command in '/home/rasp/桌面/smart-cane/build/ydlidar_sdk': /usr/bin/cmake /home/rasp/桌面/smart-cane/YDLidar-SDK-master -DCMAKE_INSTALL_PREFIX=/home/rasp/桌面/smart-cane/install/ydlidar_sdk
+[2.605s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[2.605s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[2.606s]   CMake.
+[2.606s] 
+[2.607s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[2.607s]   CMake that the project does not need compatibility with older versions.
+[2.608s] 
+[2.608s] [0m
+[3.053s] -- The C compiler identification is GNU 11.4.0
+[4.076s] -- The CXX compiler identification is GNU 11.4.0
+[4.330s] -- Detecting C compiler ABI info
+[5.576s] -- Detecting C compiler ABI info - done
+[5.676s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.677s] -- Detecting C compile features
+[5.679s] -- Detecting C compile features - done
+[5.704s] -- Detecting CXX compiler ABI info
+[7.388s] -- Detecting CXX compiler ABI info - done
+[7.481s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.488s] -- Detecting CXX compile features
+[7.528s] -- Detecting CXX compile features - done
+[7.544s] [0mCMake Deprecation Warning at CMakeLists.txt:44 (cmake_policy):
+[7.546s]   The OLD behavior for policy CMP0053 will be removed from a future version
+[7.548s]   of CMake.
+[7.550s] 
+[7.551s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[7.552s]   policies are deprecated and that a policy should be set to OLD only under
+[7.552s]   specific short-term circumstances.  Projects should be ported to the NEW
+[7.553s]   behavior and not rely on setting a policy to OLD.
+[7.553s] 
+[7.562s] [0m
+[7.570s] [0mCMake Deprecation Warning at CMakeLists.txt:47 (cmake_policy):
+[7.572s]   The OLD behavior for policy CMP0037 will be removed from a future version
+[7.573s]   of CMake.
+[7.573s] 
+[7.574s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[7.574s]   policies are deprecated and that a policy should be set to OLD only under
+[7.615s]   specific short-term circumstances.  Projects should be ported to the NEW
+[7.617s]   behavior and not rely on setting a policy to OLD.
+[7.618s] 
+[7.622s] [0m
+[7.623s] [0mCMake Deprecation Warning at CMakeLists.txt:50 (cmake_policy):
+[7.623s]   The OLD behavior for policy CMP0043 will be removed from a future version
+[7.624s]   of CMake.
+[7.624s] 
+[7.625s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[7.625s]   policies are deprecated and that a policy should be set to OLD only under
+[7.642s]   specific short-term circumstances.  Projects should be ported to the NEW
+[7.644s]   behavior and not rely on setting a policy to OLD.
+[7.645s] 
+[7.646s] [0m
+[7.657s] -- Could NOT find SWIG (missing: SWIG_EXECUTABLE SWIG_DIR) 
+[7.866s] -- Found PythonInterp: /usr/bin/python3.10 (found version "3.10.12") 
+[8.047s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+[11.171s] -- Found GTest: /usr/lib/aarch64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.11.0")  
+[11.221s] [0mCMake Deprecation Warning at core/CMakeLists.txt:1 (cmake_minimum_required):
+[11.221s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[11.222s]   CMake.
+[11.223s] 
+[11.223s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[11.228s]   CMake that the project does not need compatibility with older versions.
+[11.229s] 
+[11.254s] [0m
+[11.571s] [0mCMake Deprecation Warning at samples/CMakeLists.txt:2 (cmake_minimum_required):
+[11.573s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[11.579s]   CMake.
+[11.580s] 
+[11.582s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[11.604s]   CMake that the project does not need compatibility with older versions.
+[11.615s] 
+[11.625s] [0m
+[11.626s] -- build test is ON.....
+[11.655s] [0mCMake Deprecation Warning at cmake/install_package.cmake:101 (cmake_policy):
+[11.655s]   The OLD behavior for policy CMP0026 will be removed from a future version
+[11.656s]   of CMake.
+[11.656s] 
+[11.657s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[11.696s]   policies are deprecated and that a policy should be set to OLD only under
+[11.718s]   specific short-term circumstances.  Projects should be ported to the NEW
+[11.719s]   behavior and not rely on setting a policy to OLD.
+[11.720s] Call Stack (most recent call first):
+[11.720s]   CMakeLists.txt:161 (install_package)
+[11.741s] 
+[11.772s] [0m
+[11.773s] [33mCMake Warning (dev) at cmake/install_package.cmake:191 (install):
+[11.773s]   Policy CMP0062 is not set: Disallow install() of export() result.  Run
+[11.774s]   "cmake --help-policy CMP0062" for policy details.  Use the cmake_policy
+[11.774s]   command to set the policy and suppress this warning.
+[11.775s] 
+[11.830s]   The file
+[11.831s] 
+[11.831s]     /home/rasp/桌面/smart-cane/build/ydlidar_sdk/ydlidar_sdkTargets.cmake
+[11.832s] 
+[11.856s]   was generated by the export() command.  It should not be installed with the
+[11.858s]   install() command.  Use the install(EXPORT) mechanism instead.  See the
+[11.882s]   cmake-packages(7) manual for more.
+[11.895s] 
+[11.903s] Call Stack (most recent call first):
+[11.904s]   CMakeLists.txt:161 (install_package)
+[11.905s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[11.953s] [0m
+[11.987s] -- 
+[11.987s] -- +===========================================================================+
+[11.999s] -- |         Resulting configuration for                             |
+[12.009s] -- +===========================================================================+
+[12.031s] --  _________________________ PLATFORM _____________________________
+[12.032s] --  Host                        : Linux5.15.0-1070-raspiaarch64
+[12.040s] --  Is the system big endian?   :  No 
+[12.041s] --  Word size (32/64 bit)       : 64
+[12.053s] --  CMake version               : 3.22.1
+[12.076s] --  CMake generator             : Unix Makefiles
+[12.076s] --  CMake build tool            : /usr/bin/gmake
+[12.077s] --  Compiler                    : GNU
+[12.077s] --  Configuration               : 
+[12.078s] -- 
+[12.108s] --  __________________________ OPTIONS _____________________________
+[12.109s] --  Build YDLidar-SDK as a shared library?　　 :  No 
+[12.133s] --  Build Examples?　　　　　　　　　　　　　　 : Yes 
+[12.134s] --  Build C Sharp API?　　　　　　　　　　　　 :  No 
+[12.135s] --  Build TEST?  			　　　 : Yes 
+[12.136s] -- 
+[12.147s] --  _________________________ INSTALL _____________________
+[12.148s] --  Install prefix                    : /home/rasp/桌面/smart-cane/install/ydlidar_sdk
+[12.158s] -- 
+[12.160s] --  _______________________ WRAPPERS/BINDINGS ______________________
+[12.160s] --  Python bindings (pyydlidar)   :  No 
+[12.181s] --   - dep: Swig found?       :  No [Version: ]
+[12.182s] --   - dep: PythonLibs found?  : Yes [Version: 3.10.12]
+[12.209s] -- 
+[12.210s] -- Configuring done
+[12.364s] -- Generating done
+[12.440s] -- Build files have been written to: /home/rasp/桌面/smart-cane/build/ydlidar_sdk
+[12.485s] Invoked command in '/home/rasp/桌面/smart-cane/build/ydlidar_sdk' returned '0': /usr/bin/cmake /home/rasp/桌面/smart-cane/YDLidar-SDK-master -DCMAKE_INSTALL_PREFIX=/home/rasp/桌面/smart-cane/install/ydlidar_sdk
+[12.491s] Invoking command in '/home/rasp/桌面/smart-cane/build/ydlidar_sdk': /usr/bin/cmake --build /home/rasp/桌面/smart-cane/build/ydlidar_sdk -- -j4 -l4
+[13.307s] [  4%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/base/timer.cpp.o[0m
+[13.408s] [  8%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/ActiveSocket.cpp.o[0m
+[13.511s] [ 12%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/common/ydlidar_def.cpp.o[0m
+[13.655s] [ 16%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/PassiveSocket.cpp.o[0m
+[14.021s] [ 20%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/SimpleSocket.cpp.o[0m
+[16.429s] [ 24%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/serial.cpp.o[0m
+[20.226s] [ 28%] [32mBuilding C object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/lock.c.o[0m
+[20.457s] [ 32%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/list_ports_linux.cpp.o[0m
+[21.437s] [ 36%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/unix_serial.cpp.o[0m
+[21.608s] [ 40%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/CYdLidar.cpp.o[0m
+[30.573s] In file included from [01m[K/home/rasp/桌面/smart-cane/YDLidar-SDK-master/src/ydlidar_driver.h:49[m[K,
+[30.574s]                  from [01m[K/home/rasp/桌面/smart-cane/YDLidar-SDK-master/src/CYdLidar.cpp:30[m[K:
+[30.575s] [01m[K/home/rasp/桌面/smart-cane/YDLidar-SDK-master/./core/common/ydlidar_help.h:[m[K In function ‘[01m[Kbool ydlidar::core::common::ParseLaserDebugInfo(const LaserDebug&, device_info&)[m[K’:
+[30.579s] [01m[K/home/rasp/桌面/smart-cane/YDLidar-SDK-master/./core/common/ydlidar_help.h:898:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksprintf[m[K’ writing a terminating nul past the end of the destination [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-overflow=-Wformat-overflow=]8;;[m[K]
+[30.582s]   898 |       sprintf(reinterpret_cast<char *>(value.serialnum + 8), "%08d[01;35m[K"[m[K, Number);
+[30.585s]       |                                                                   [01;35m[K^[m[K
+[30.591s] [01m[K/home/rasp/桌面/smart-cane/YDLidar-SDK-master/./core/common/ydlidar_help.h:898:14:[m[K [01;36m[Knote: [m[K‘[01m[Ksprintf[m[K’ output 9 bytes into a destination of size 8
+[30.593s]   898 |       [01;36m[Ksprintf(reinterpret_cast<char *>(value.serialnum + 8), "%08d", Number)[m[K;
+[30.602s]       |       [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[34.197s] [ 44%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ydlidar_sdk.cpp.o[0m
+[38.468s] [ 48%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/filters/NoiseFilter.cpp.o[0m
+[40.539s] [01m[K/home/rasp/桌面/smart-cane/YDLidar-SDK-master/src/filters/NoiseFilter.cpp:[m[K In member function ‘[01m[Kvoid NoiseFilter::filter_tail2(const LaserScan&, int, int, LaserScan&)[m[K’:
+[40.540s] [01m[K/home/rasp/桌面/smart-cane/YDLidar-SDK-master/src/filters/NoiseFilter.cpp:579:26:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[40.541s]   579 |     printf("Noise count [01;35m[K%u[m[K\n", [32m[KnoiseCount[m[K);
+[40.541s]       |                         [01;35m[K~^[m[K     [32m[K~~~~~~~~~~[m[K
+[40.544s]       |                          [01;35m[K|[m[K     [32m[K|[m[K
+[40.544s]       |                          [01;35m[K|[m[K     [32m[Ksize_t {aka long unsigned int}[m[K
+[40.545s]       |                          [01;35m[Kunsigned int[m[K
+[40.546s]       |                         [32m[K%lu[m[K
+[41.570s] [ 52%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ydlidar_driver.cpp.o[0m
+[46.367s] [ 56%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ETLidarDriver.cpp.o[0m
+[50.430s] [ 60%] [32m[1mLinking CXX static library libydlidar_sdk.a[0m
+[51.269s] [ 60%] Built target ydlidar_sdk
+[51.880s] [ 64%] [32mBuilding CXX object samples/CMakeFiles/etlidar_test.dir/etlidar_test.cpp.o[0m
+[55.873s] [01m[K/home/rasp/桌面/smart-cane/YDLidar-SDK-master/samples/etlidar_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[55.874s] [01m[K/home/rasp/桌面/smart-cane/YDLidar-SDK-master/samples/etlidar_test.cpp:178:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 3 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[55.875s]   178 |       fprintf(stdout, "Scan received[[01;35m[K%llu[m[K]: %u ranges is [%f]Hz\n",
+[55.875s]       |                                      [01;35m[K~~~^[m[K
+[55.876s]       |                                         [01;35m[K|[m[K
+[55.876s]       |                                         [01;35m[Klong long unsigned int[m[K
+[55.877s]       |                                      [32m[K%lu[m[K
+[55.877s]   179 |               [32m[Kscan.stamp[m[K,
+[55.878s]       |               [32m[K~~~~~~~~~~[m[K                 
+[55.879s]       |                    [32m[K|[m[K
+[55.879s]       |                    [32m[Kuint64_t {aka long unsigned int}[m[K
+[55.893s] [ 68%] [32m[1mLinking CXX executable ../etlidar_test[0m
+[56.104s] [ 68%] Built target etlidar_test
+[56.222s] [ 72%] [32mBuilding C object samples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o[0m
+[56.498s] [01m[Kcc1:[m[K [01;35m[Kwarning: [m[Kcommand-line option ‘[01m[K-std=c++11[m[K’ is valid for C++/ObjC++ but not for C
+[56.855s] [01m[K/home/rasp/桌面/smart-cane/YDLidar-SDK-master/samples/lidar_c_api_test.c:[m[K In function ‘[01m[Kmain[m[K’:
+[56.859s] [01m[K/home/rasp/桌面/smart-cane/YDLidar-SDK-master/samples/lidar_c_api_test.c:102:47:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 3 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[56.860s]   102 |             fprintf(stdout, "Scan received[[01;35m[K%llu[m[K]: %u ranges is [%f]Hz\n",
+[56.861s]       |                                            [01;35m[K~~~^[m[K
+[56.862s]       |                                               [01;35m[K|[m[K
+[56.867s]       |                                               [01;35m[Klong long unsigned int[m[K
+[56.870s]       |                                            [32m[K%lu[m[K
+[56.871s]   103 |                     [32m[Kscan.stamp[m[K,
+[56.874s]       |                     [32m[K~~~~~~~~~~[m[K                 
+[56.876s]       |                         [32m[K|[m[K
+[56.877s]       |                         [32m[Kuint64_t {aka long unsigned int}[m[K
+[57.279s] [ 76%] [32m[1mLinking CXX executable ../lidar_c_api_test[0m
+[58.505s] [ 76%] Built target lidar_c_api_test
+[58.721s] [ 80%] [32mBuilding CXX object test/CMakeFiles/lidar_test.dir/lidar_test.cpp.o[0m
+[64.592s] [ 84%] [32m[1mLinking CXX executable lidar_test[0m
+[65.877s] [ 84%] Built target lidar_test
+[66.098s] [ 88%] [32mBuilding CXX object samples/CMakeFiles/ydlidar_test.dir/ydlidar_test.cpp.o[0m
+[68.751s] [01m[K/home/rasp/桌面/smart-cane/YDLidar-SDK-master/samples/ydlidar_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[68.752s] [01m[K/home/rasp/桌面/smart-cane/YDLidar-SDK-master/samples/ydlidar_test.cpp:268:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 2 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[68.752s]   268 |           printf("Scan received at [[01;35m[K%llu[m[K] %u points is [%f]Hz\n",
+[68.752s]       |                                     [01;35m[K~~~^[m[K
+[68.753s]       |                                        [01;35m[K|[m[K
+[68.753s]       |                                        [01;35m[Klong long unsigned int[m[K
+[68.754s]       |                                     [32m[K%lu[m[K
+[68.754s]   269 |                  [32m[Kscan.stamp / 1000000[m[K,
+[68.755s]       |                  [32m[K~~~~~~~~~~~~~~~~~~~~[m[K   
+[68.755s]       |                             [32m[K|[m[K
+[68.756s]       |                             [32m[Kuint64_t {aka long unsigned int}[m[K
+[69.332s] [ 92%] [32m[1mLinking CXX executable ../ydlidar_test[0m
+[70.178s] [ 92%] Built target ydlidar_test
+[70.357s] [ 96%] [32mBuilding CXX object samples/CMakeFiles/tof_test.dir/tof_test.cpp.o[0m
+[72.763s] [01m[K/home/rasp/桌面/smart-cane/YDLidar-SDK-master/samples/tof_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[72.763s] [01m[K/home/rasp/桌面/smart-cane/YDLidar-SDK-master/samples/tof_test.cpp:269:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 3 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[72.764s]   269 |           fprintf(stdout, "Scan received at [[01;35m[K%llu[m[K] %u points is [%f]s\n",
+[72.765s]       |                                              [01;35m[K~~~^[m[K
+[72.765s]       |                                                 [01;35m[K|[m[K
+[72.765s]       |                                                 [01;35m[Klong long unsigned int[m[K
+[72.766s]       |                                              [32m[K%lu[m[K
+[72.766s]   270 |                   [32m[Kscan.stamp / 100000[m[K,
+[72.767s]       |                   [32m[K~~~~~~~~~~~~~~~~~~~[m[K            
+[72.767s]       |                              [32m[K|[m[K
+[72.767s]       |                              [32m[Kuint64_t {aka long unsigned int}[m[K
+[73.346s] [100%] [32m[1mLinking CXX executable ../tof_test[0m
+[74.063s] [100%] Built target tof_test

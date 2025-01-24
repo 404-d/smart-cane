@@ -1,0 +1,79 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Could NOT find SWIG (missing: SWIG_EXECUTABLE SWIG_DIR) 
+-- Found PythonInterp: /usr/bin/python3.10 (found version "3.10.12") 
+-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+-- Found GTest: /usr/lib/aarch64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.11.0")  
+-- build test is ON.....
+-- 
+-- +===========================================================================+
+-- |         Resulting configuration for                             |
+-- +===========================================================================+
+--  _________________________ PLATFORM _____________________________
+--  Host                        : Linux5.15.0-1070-raspiaarch64
+--  Is the system big endian?   :  No 
+--  Word size (32/64 bit)       : 64
+--  CMake version               : 3.22.1
+--  CMake generator             : Unix Makefiles
+--  CMake build tool            : /usr/bin/gmake
+--  Compiler                    : GNU
+--  Configuration               : 
+-- 
+--  __________________________ OPTIONS _____________________________
+--  Build YDLidar-SDK as a shared library?　　 :  No 
+--  Build Examples?　　　　　　　　　　　　　　 : Yes 
+--  Build C Sharp API?　　　　　　　　　　　　 :  No 
+--  Build TEST?  			　　　 : Yes 
+-- 
+--  _________________________ INSTALL _____________________
+--  Install prefix                    : /home/rasp/桌面/smart-cane/install/ydlidar_sdk
+-- 
+--  _______________________ WRAPPERS/BINDINGS ______________________
+--  Python bindings (pyydlidar)   :  No 
+--   - dep: Swig found?       :  No [Version: ]
+--   - dep: PythonLibs found?  : Yes [Version: 3.10.12]
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rasp/桌面/smart-cane/build/ydlidar_sdk
+[  4%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/base/timer.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/ActiveSocket.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/common/ydlidar_def.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/PassiveSocket.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/SimpleSocket.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/serial.cpp.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/lock.c.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/list_ports_linux.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/unix_serial.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/CYdLidar.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ydlidar_sdk.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/filters/NoiseFilter.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ydlidar_driver.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ETLidarDriver.cpp.o[0m
+[ 60%] [32m[1mLinking CXX static library libydlidar_sdk.a[0m
+[ 60%] Built target ydlidar_sdk
+[ 64%] [32mBuilding CXX object samples/CMakeFiles/etlidar_test.dir/etlidar_test.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable ../etlidar_test[0m
+[ 68%] Built target etlidar_test
+[ 72%] [32mBuilding C object samples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o[0m
+[ 76%] [32m[1mLinking CXX executable ../lidar_c_api_test[0m
+[ 76%] Built target lidar_c_api_test
+[ 80%] [32mBuilding CXX object test/CMakeFiles/lidar_test.dir/lidar_test.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable lidar_test[0m
+[ 84%] Built target lidar_test
+[ 88%] [32mBuilding CXX object samples/CMakeFiles/ydlidar_test.dir/ydlidar_test.cpp.o[0m
+[ 92%] [32m[1mLinking CXX executable ../ydlidar_test[0m
+[ 92%] Built target ydlidar_test
+[ 96%] [32mBuilding CXX object samples/CMakeFiles/tof_test.dir/tof_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ../tof_test[0m
+[100%] Built target tof_test

@@ -1,0 +1,208 @@
+[0.807s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.807s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb61febc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb63e8070>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb63e8070>>)
+[1.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.741s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rasp/桌面/smart-cane'
+[1.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.823s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.823s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.824s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.824s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extensions ['ignore', 'ignore_ament_install']
+[1.826s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extension 'ignore'
+[1.826s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extension 'ignore_ament_install'
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extensions ['colcon_pkg']
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extension 'colcon_pkg'
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extensions ['colcon_meta']
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extension 'colcon_meta'
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extensions ['ros']
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extension 'ros'
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extensions ['cmake', 'python']
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extension 'cmake'
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extension 'python'
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extensions ['python_setup_py']
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(3D模型技术规格) by extension 'python_setup_py'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extensions ['ignore', 'ignore_ament_install']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extension 'ignore'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extension 'ignore_ament_install'
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extensions ['colcon_pkg']
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extension 'colcon_pkg'
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extensions ['colcon_meta']
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extension 'colcon_meta'
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extensions ['ros']
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extension 'ros'
+[1.835s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extensions ['cmake', 'python']
+[1.835s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extension 'cmake'
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK-master) by extension 'python'
+[1.959s] DEBUG:colcon.colcon_core.package_identification:Package 'YDLidar-SDK-master' with type 'cmake' and name 'ydlidar_sdk'
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_helloworld_py) by extensions ['ignore', 'ignore_ament_install']
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_helloworld_py) by extension 'ignore'
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_helloworld_py) by extension 'ignore_ament_install'
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_helloworld_py) by extensions ['colcon_pkg']
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_helloworld_py) by extension 'colcon_pkg'
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_helloworld_py) by extensions ['colcon_meta']
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_helloworld_py) by extension 'colcon_meta'
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_helloworld_py) by extensions ['ros']
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_helloworld_py) by extension 'ros'
+[1.983s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg_helloworld_py' with type 'ros.ament_python' and name 'pkg_helloworld_py'
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-master) by extensions ['ignore', 'ignore_ament_install']
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-master) by extension 'ignore'
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-master) by extension 'ignore_ament_install'
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-master) by extensions ['colcon_pkg']
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-master) by extension 'colcon_pkg'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-master) by extensions ['colcon_meta']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-master) by extension 'colcon_meta'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-master) by extensions ['ros']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-master) by extension 'ros'
+[1.991s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver-master' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[1.991s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.991s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.991s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.992s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.992s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.106s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/rasp/桌面/smart-cane/install
+[2.118s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[2.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.515s] Level 5:colcon.colcon_core.verb:set package 'pkg_helloworld_py' build argument 'cmake_args' from command line to 'None'
+[2.516s] Level 5:colcon.colcon_core.verb:set package 'pkg_helloworld_py' build argument 'cmake_target' from command line to 'None'
+[2.516s] Level 5:colcon.colcon_core.verb:set package 'pkg_helloworld_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.516s] Level 5:colcon.colcon_core.verb:set package 'pkg_helloworld_py' build argument 'cmake_clean_cache' from command line to 'False'
+[2.516s] Level 5:colcon.colcon_core.verb:set package 'pkg_helloworld_py' build argument 'cmake_clean_first' from command line to 'False'
+[2.516s] Level 5:colcon.colcon_core.verb:set package 'pkg_helloworld_py' build argument 'cmake_force_configure' from command line to 'False'
+[2.516s] Level 5:colcon.colcon_core.verb:set package 'pkg_helloworld_py' build argument 'ament_cmake_args' from command line to 'None'
+[2.516s] Level 5:colcon.colcon_core.verb:set package 'pkg_helloworld_py' build argument 'catkin_cmake_args' from command line to 'None'
+[2.516s] Level 5:colcon.colcon_core.verb:set package 'pkg_helloworld_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.517s] DEBUG:colcon.colcon_core.verb:Building package 'pkg_helloworld_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rasp/桌面/smart-cane/build/pkg_helloworld_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py', 'merge_install': False, 'path': '/home/rasp/桌面/smart-cane/src/pkg_helloworld_py', 'symlink_install': True, 'test_result_base': None}
+[2.518s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[2.518s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[2.518s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.519s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[2.519s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[2.519s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[2.519s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[2.519s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[2.519s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.519s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rasp/桌面/smart-cane/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rasp/桌面/smart-cane/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master', 'symlink_install': True, 'test_result_base': None}
+[2.521s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_args' from command line to 'None'
+[2.521s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target' from command line to 'None'
+[2.521s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.521s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[2.521s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[2.522s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[2.522s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[2.522s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[2.522s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.522s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rasp/桌面/smart-cane/build/ydlidar_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rasp/桌面/smart-cane/install/ydlidar_sdk', 'merge_install': False, 'path': '/home/rasp/桌面/smart-cane/YDLidar-SDK-master', 'symlink_install': True, 'test_result_base': None}
+[2.523s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.526s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.527s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rasp/桌面/smart-cane/src/pkg_helloworld_py' with build type 'ament_python'
+[2.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_helloworld_py', 'ament_prefix_path')
+[2.547s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/pkg_helloworld_py/hook/ament_prefix_path.ps1'
+[2.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/pkg_helloworld_py/hook/ament_prefix_path.dsv'
+[2.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/pkg_helloworld_py/hook/ament_prefix_path.sh'
+[2.561s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.561s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.580s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master' with build type 'ament_cmake'
+[2.581s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rasp/桌面/smart-cane/src/ydlidar_ros2_driver-master'
+[2.582s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.583s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.602s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rasp/桌面/smart-cane/YDLidar-SDK-master'
+[2.604s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.604s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.864s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rasp/桌面/smart-cane/src/pkg_helloworld_py'
+[3.865s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.867s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp/桌面/smart-cane/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/home/rasp/桌面/smart-cane/install/pkg_helloworld_py:/opt/ros/humble /usr/bin/cmake --build /home/rasp/桌面/smart-cane/build/ydlidar_ros2_driver -- -j4 -l4
+[3.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp/桌面/smart-cane/build/ydlidar_sdk': /usr/bin/cmake --build /home/rasp/桌面/smart-cane/build/ydlidar_sdk -- -j4 -l4
+[5.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp/桌面/smart-cane/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/rasp/桌面/smart-cane/build/ydlidar_sdk -- -j4 -l4
+[5.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp/桌面/smart-cane/build/ydlidar_sdk': /usr/bin/cmake --install /home/rasp/桌面/smart-cane/build/ydlidar_sdk
+[6.115s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_sdk)
+[6.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp/桌面/smart-cane/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/rasp/桌面/smart-cane/build/ydlidar_sdk
+[6.169s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/桌面/smart-cane/install/ydlidar_sdk' for CMake module files
+[6.173s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/桌面/smart-cane/install/ydlidar_sdk' for CMake config files
+[6.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'cmake_prefix_path')
+[6.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.ps1'
+[6.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.dsv'
+[6.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.sh'
+[6.224s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/桌面/smart-cane/install/ydlidar_sdk/lib'
+[6.226s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/桌面/smart-cane/install/ydlidar_sdk/bin'
+[6.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'path')
+[6.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.ps1'
+[6.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.dsv'
+[6.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.sh'
+[6.241s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/桌面/smart-cane/install/ydlidar_sdk/lib/pkgconfig/ydlidar_sdk.pc'
+[6.243s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/桌面/smart-cane/install/ydlidar_sdk/lib/python3.10/site-packages'
+[6.245s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/桌面/smart-cane/install/ydlidar_sdk/bin'
+[6.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'pythonscriptspath')
+[6.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.ps1'
+[6.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.dsv'
+[6.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.sh'
+[6.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/ydlidar_sdk/package.ps1'
+[6.268s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/ydlidar_sdk/package.dsv'
+[6.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/ydlidar_sdk/package.sh'
+[6.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/ydlidar_sdk/package.bash'
+[6.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/ydlidar_sdk/package.zsh'
+[6.298s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rasp/桌面/smart-cane/install/ydlidar_sdk/share/colcon-core/packages/ydlidar_sdk)
+[7.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp/桌面/smart-cane/build/pkg_helloworld_py': PYTHONPATH=/home/rasp/桌面/smart-cane/build/pkg_helloworld_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rasp/桌面/smart-cane/build/pkg_helloworld_py/build --no-deps symlink_data
+[11.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_helloworld_py', 'pythonpath_develop')
+[11.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/桌面/smart-cane/build/pkg_helloworld_py/share/pkg_helloworld_py/hook/pythonpath_develop.ps1'
+[11.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp/桌面/smart-cane/build/pkg_helloworld_py' returned '0': PYTHONPATH=/home/rasp/桌面/smart-cane/build/pkg_helloworld_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rasp/桌面/smart-cane/build/pkg_helloworld_py/build --no-deps symlink_data
+[11.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp/桌面/smart-cane/build/pkg_helloworld_py/share/pkg_helloworld_py/hook/pythonpath_develop.dsv'
+[11.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/桌面/smart-cane/build/pkg_helloworld_py/share/pkg_helloworld_py/hook/pythonpath_develop.sh'
+[11.888s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py' for CMake module files
+[11.894s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py' for CMake config files
+[11.906s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/lib'
+[11.907s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/bin'
+[11.909s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/lib/pkgconfig/pkg_helloworld_py.pc'
+[11.912s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/lib/python3.10/site-packages'
+[11.913s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_helloworld_py', 'pythonpath')
+[11.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/pkg_helloworld_py/hook/pythonpath.ps1'
+[11.920s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/pkg_helloworld_py/hook/pythonpath.dsv'
+[11.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/pkg_helloworld_py/hook/pythonpath.sh'
+[11.929s] Level 1:colcon.colcon_core.environment:checking '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/bin'
+[11.930s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_helloworld_py)
+[11.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/pkg_helloworld_py/package.ps1'
+[11.938s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/pkg_helloworld_py/package.dsv'
+[11.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/pkg_helloworld_py/package.sh'
+[11.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/pkg_helloworld_py/package.bash'
+[11.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/pkg_helloworld_py/package.zsh'
+[11.959s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rasp/桌面/smart-cane/install/pkg_helloworld_py/share/colcon-core/packages/pkg_helloworld_py)
