@@ -1,9 +1,0 @@
-rasp@rasp:~$ sudo apt install ros-foxy-gazebo python3-argcomplete
-正在读取软件包列表... 完成
-正在分析软件包的依赖关系树... 完成
-正在读取状态信息... 完成
-E: 无法定位软件包 ros-foxy-gazebo
-
-
-sudo apt-key adv --key[[serve](https://wenku.csdn.net/doc/qcic4zxoxb?spm=1055.2569.3001.10083&amp;kwd=serve)r](https://wenku.csdn.net/doc/4w0pz6a6ko?spm=1055.2569.3001.10083&amp;kwd=server) keyserver.[ubuntu](https://wenku.csdn.net/doc/1f0zb69t2p?spm=1055.2569.3001.10083&amp;kwd=ubuntu).com --recv-keys ED444FF07D8D0BF6
-sudo apt-get [u[pdate](https://wenku.csdn.net/doc/2zjrecjree?spm=1055.2569.3001.10083&amp;kwd=pdate)](https://wenku.csdn.net/doc/6401abcacce7214c316e9829?spm=1055.2569.3001.10083&amp;kwd=update)
