@@ -1,0 +1,3 @@
+[console_scripts]
+helloworld = pkg_helloworld_py.helloworld:main
+
