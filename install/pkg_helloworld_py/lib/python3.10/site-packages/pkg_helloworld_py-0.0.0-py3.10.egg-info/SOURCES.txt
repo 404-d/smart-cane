@@ -8,6 +8,7 @@ setup.py
 ../../build/pkg_helloworld_py/pkg_helloworld_py.egg-info/requires.txt
 ../../build/pkg_helloworld_py/pkg_helloworld_py.egg-info/top_level.txt
 ../../build/pkg_helloworld_py/pkg_helloworld_py.egg-info/zip-safe
+launch/single_node_launch.py
 pkg_helloworld_py/__init__.py
 pkg_helloworld_py/helloworld.py
 resource/pkg_helloworld_py
