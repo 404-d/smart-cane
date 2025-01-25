@@ -26,7 +26,7 @@ import os
 
 
 def generate_launch_description():
-    share_dir = get_package_share_directory('ydlidar_ros2_driver')
+    share_dir = get_package_share_directory('ydlidar_ros2_driver-master')
     parameter_file = LaunchConfiguration('params_file')
     node_name = 'ydlidar_ros2_driver_node'
 
@@ -35,7 +35,7 @@ def generate_launch_description():
                                                share_dir, 'params', 'ydlidar_x3.yaml'),
                                            description='FPath to the ROS2 parameters file to use.')
 
-    driver_node = LifecycleNode(package='ydlidar_ros2_driver',
+    driver_node = LifecycleNode(package='ydlidar_ros2_driver-master',
                                 node_executable='ydlidar_ros2_driver_node',
                                 node_name='ydlidar_ros2_driver_node',
                                 output='screen',
