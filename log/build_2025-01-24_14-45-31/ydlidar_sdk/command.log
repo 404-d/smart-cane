@@ -1,4 +1,0 @@
-Invoking command in '/home/rasp/桌面/smart-cane/build/ydlidar_sdk': /usr/bin/cmake --build /home/rasp/桌面/smart-cane/build/ydlidar_sdk -- -j4 -l4
-Invoked command in '/home/rasp/桌面/smart-cane/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/rasp/桌面/smart-cane/build/ydlidar_sdk -- -j4 -l4
-Invoking command in '/home/rasp/桌面/smart-cane/build/ydlidar_sdk': /usr/bin/cmake --install /home/rasp/桌面/smart-cane/build/ydlidar_sdk
-Invoked command in '/home/rasp/桌面/smart-cane/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/rasp/桌面/smart-cane/build/ydlidar_sdk

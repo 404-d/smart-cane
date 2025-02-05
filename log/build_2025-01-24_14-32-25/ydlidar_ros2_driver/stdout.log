@@ -1,4 +1,0 @@
-[ 25%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
-[ 75%] [32m[1mLinking CXX executable ydlidar_ros2_driver_client[0m
-[ 75%] Built target ydlidar_ros2_driver_client
