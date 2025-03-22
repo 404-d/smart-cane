@@ -1,5 +1,5 @@
 #include<iostream>
-#include<wiringPi.h> //type=ignored
+#include<wiringPi.h> 
 #include<stdio.h>
 
 //定义引脚
