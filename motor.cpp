@@ -11,8 +11,7 @@
 int main(){
     //初始化GPIO    
     wiringPiSetup();
-    pinMode(INT1, OUTPUT);git config --global --unset https.proxy
-
+    pinMode(INT1, OUTPUT);
     pinMode(INT2, OUTPUT);
     pinMode(INT3, OUTPUT);
     pinMode(INT4, OUTPUT);
