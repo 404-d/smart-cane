@@ -1,7 +1,10 @@
 {
-  "editor.fontFamily": "'JetBrains Mono NL', 'JetBrains Mono NL Regular', monospace",
+  // "editor.fontFamily": "'Maple Mono NF CN', 'Maple Mono NF CN Medium Italic', monospace",
+  "editor.fontFamily": "Maple Mono NF CN, Menlo, Consolas, Maple UI, PingFang, 'Microsoft YaHei', monospace",
   "editor.fontSize": 18,
-  "editor.fontLigatures": true,
+  // "editor.fontLigatures": true,
+  // "editor.fontLigatures": "'calt'",
+  "editor.fontLigatures": "'calt', 'zero', 'cv37', 'ss06', 'cv96', 'cv97', 'cv98'",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.tabSize": 4,
@@ -18,10 +21,10 @@
   "python.testing.unittestArgs": ["-v", "-s", "./AI_Camera", "-p", "*test*.py"],
   "python.testing.pytestEnabled": false,
   "python.testing.unittestEnabled": true,
-  "files.associations": {
-    "ostream": "cpp",
-    "iostream": "cpp"
-  },
+  // "files.associations": {
+  //   "ostream": "cpp",
+  //   "iostream": "cpp"
+  // },
   "cSpell.words": [
     "Bambu",
     "Bilibili",
