@@ -1,8 +1,6 @@
 import time
 import VL53L0X #type: ignore
 import RPi.GPIO as GPIO #type: ignore
-from playsound import playsound #type: ignore
-from time import sleep
 
 # 映射函数
 def map (vin, iMin, iMax, oMin, oMax):

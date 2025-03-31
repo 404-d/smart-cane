@@ -1,10 +1,10 @@
 {
   // "editor.fontFamily": "'Maple Mono NF CN', 'Maple Mono NF CN Medium Italic', monospace",
-  "editor.fontFamily": "Maple Mono NF CN, Menlo, Consolas, Maple UI, PingFang, 'Microsoft YaHei', monospace",
+  "editor.fontFamily": "Maple Mono NF CN, Maple UI, monospace",
   "editor.fontSize": 18,
   // "editor.fontLigatures": true,
   // "editor.fontLigatures": "'calt'",
-  "editor.fontLigatures": "'calt', 'zero', 'cv37', 'ss06', 'cv96', 'cv97', 'cv98'",
+  "editor.fontLigatures": "'calt', 'cv37', 'cv02', 'ss06', 'cv96', 'cv97', 'cv98'",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.tabSize": 4,
