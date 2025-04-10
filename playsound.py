@@ -1,9 +1,11 @@
-from playsound import playsound #type: ignore
+import pyttsx3 
 import time
+engine = pyttsx3.init()
+engine.setProperty('rate', 200)
+# engine.say("前方左转")
+# engine.runAndWait()
 
-playsound('stop.mp3')
-playsound('upstairs.mp3')
-playsound('downstairs.mp3')
-playsound('left.mp3')
-playsound('right.mp3')
-playsound('people_around.mp3')
+# time.sleep(1)
+engine.say("前方有楼梯，请注意安全")
+engine.runAndWait()
+
