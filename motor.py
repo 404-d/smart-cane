@@ -18,12 +18,15 @@ def left(ts):
     in1.start(speed)
     in2.start(0)
     time.sleep(ts)
+    GPIO.cleanup()
 
 def right(ts):
     in1.start(speed)
     in2.start(0)
     time.sleep(ts)
+    GPIO.cleanup()
 
 def stop():
     in1.start(0)
     in2.start(0)
+    GPIO.cleanup()
