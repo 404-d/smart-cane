@@ -100,8 +100,7 @@ try:
         # 主线程保持运行
         time.sleep(1)
 except KeyboardInterrupt:
-    vl53.stop_ranging()  # 停止传感器
-    print("VL53L0X quipped")
+    print("VL53L0X is running")
 
 
 #====================MPU-6050传感器=======================
@@ -198,10 +197,8 @@ if __name__=="__main__":
                 interrupt_handler()
                 time.sleep(0.5)  # 防抖延迟
             time.sleep(0.01)
-            
     except KeyboardInterrupt:
-        GPIO.cleanup()
-        print("MPU-6050 quipped")
+        print("MPU-6050 is running")
     
 
 #====================YOLO模型============================
